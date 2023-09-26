@@ -1,9 +1,11 @@
+@use "./variables.scss" as palette;
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 
-  background-color: #111014;
+  background-color: palette.$bg-primary-color;
 }
 
 html,

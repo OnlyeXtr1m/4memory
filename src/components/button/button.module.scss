@@ -1,3 +1,4 @@
+@use "@/app/variables.scss" as palette;
 .btn {
   display:inline-block;
 
@@ -9,20 +10,20 @@
 }
 
 .primary {
-  color: #EAE2EA;
-  background-color: #71499C;
+  color: palette.$typography-primary-color;
+  background-color: palette.$bg-accent-color;
 }
 .dark {
-  color: #71499C;
-  background-color: #211E29;
+  color: palette.$typography-primary-color;
+  background-color: palette.$bg-primary-color;
 }
 .bordered {
-  border: 2px solid #71499C;
+  border: 2px solid palette.$bg-accent-color;
 
-  color: #EAE2EA;
-  background-color: #111014;
+  color: palette.$typography-primary-color;
+  background-color: palette.$bg-secondary-color;
 }
 .none {
-  color: #EAE2EA;
+  color: palette.$typography-primary-color;
   background-color: unset;
 }

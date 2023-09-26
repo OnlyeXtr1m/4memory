@@ -1,0 +1,28 @@
+.btn {
+  display:inline-block;
+
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary {
+  color: #EAE2EA;
+  background-color: #71499C;
+}
+.dark {
+  color: #71499C;
+  background-color: #211E29;
+}
+.lined {
+  border: 2px solid #71499C;
+
+  color: #EAE2EA;
+  background-color: #111014;
+}
+.none {
+  color: #EAE2EA;
+  background-color: unset;
+}

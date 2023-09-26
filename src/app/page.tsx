@@ -1,6 +1,11 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+"use client"
+
 import { useEffect } from "react";
+
+import { Button } from "@/components";
+import Image from "next/image";
+
+import styles from "./page.module.scss";
 
 export default function Home() {
   useEffect(() => {
@@ -16,6 +21,7 @@ export default function Home() {
         src="/images/main-logo-img.jpg"
         alt="logo"
       ></Image>
+      <Button displayType="primary">string</Button>
     </main>
   );
 }

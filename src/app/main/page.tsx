@@ -1,6 +1,4 @@
-import { useEffect } from "react";
-
-export default function Main(props) {
+export default function Main() {
   return (
     <>
       <div>

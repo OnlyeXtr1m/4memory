@@ -22,6 +22,7 @@ export default function Home() {
         alt="logo"
       ></Image>
       <Button buttonType="primary">string</Button>
+        <p>FOnt</p>
     </main>
   );
 }

@@ -1,16 +1,16 @@
-"use client"
+'use client';
 
-import { useEffect } from "react";
+import { useEffect } from 'react';
 
-import { Button } from "@/components";
-import Image from "next/image";
+import { Button } from '@/components';
+import Image from 'next/image';
 
-import styles from "./page.module.scss";
+import styles from './page.module.scss';
 
 export default function Home() {
   useEffect(() => {
-    console.log("rerender");
-    return () => console.log("unmount");
+    console.log('rerender');
+    return () => console.log('unmount');
   });
 
   return (
@@ -18,11 +18,11 @@ export default function Home() {
       <Image
         width={300}
         height={300}
-        src="/images/main-logo-img.jpg"
-        alt="logo"
+        src='/images/main-logo-img.jpg'
+        alt='logo'
       ></Image>
-      <Button buttonType="primary">string</Button>
-        <p>FOnt</p>
+      <Button buttonType='primary'>string</Button>
+      <p>FOnt</p>
     </main>
   );
 }

@@ -4,11 +4,11 @@ import cn from "classnames";
 import {ButtonProps} from "@/components/button/button.proptypes";
 
 import styles from "./button.module.scss";
-export function Button({children, displayType = "primary", ...props}: ButtonProps) : React.ReactElement {
+export function Button({children, buttonType = "primary", ...props}: ButtonProps) : React.ReactElement {
   return <button className={cn(styles.btn,
-      { [styles.primary]: displayType === "primary",
-      [styles.dark]: displayType === "dark",
-      [styles.lined]: displayType === "bordered",
-      [styles.none]: displayType === "none",
+      { [styles.primary]: buttonType === "primary",
+      [styles.dark]: buttonType === "dark",
+      [styles.lined]: buttonType === "bordered",
+      [styles.none]: buttonType === "none",
     })} {...props}>{children}</button>;
 }

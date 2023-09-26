@@ -21,7 +21,7 @@ export default function Home() {
         src="/images/main-logo-img.jpg"
         alt="logo"
       ></Image>
-      <Button displayType="primary">string</Button>
+      <Button buttonType="primary">string</Button>
     </main>
   );
 }

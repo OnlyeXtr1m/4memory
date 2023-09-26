@@ -8,7 +8,7 @@ export function Button({children, displayType = "primary", ...props}: ButtonProp
   return <button className={cn(styles.btn,
       { [styles.primary]: displayType === "primary",
       [styles.dark]: displayType === "dark",
-      [styles.lined]: displayType === "lined",
+      [styles.lined]: displayType === "bordered",
       [styles.none]: displayType === "none",
     })} {...props}>{children}</button>;
 }

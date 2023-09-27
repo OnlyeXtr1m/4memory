@@ -1,11 +1,11 @@
-@use "./variables.scss" as palette;
+@use './variables.scss' as palette;
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
   background-color: palette.$bg-primary-color;
+  color: palette.$typography-primary-color;
 }
 
 html,

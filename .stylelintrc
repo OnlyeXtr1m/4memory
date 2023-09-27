@@ -3,5 +3,7 @@
     "stylelint-config-standard",
     "stylelint-config-sass-guidelines",
     "stylelint-prettier/recommended"
-  ]
+  ],
+  "cache": true,
+  "fix": true
 }

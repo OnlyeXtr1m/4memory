@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import { Button } from '@/components';
 import Image from 'next/image';
@@ -20,7 +20,7 @@ export default function Home() {
         height={300}
         src='/images/main-logo-img.jpg'
         alt='logo'
-      ></Image>
+      />
       <Button buttonType='primary'>string</Button>
       <p>FOnt</p>
     </main>

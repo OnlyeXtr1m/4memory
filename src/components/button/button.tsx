@@ -4,6 +4,7 @@ import cn from 'classnames';
 import { ButtonProps } from '@/components/button/button.proptypes';
 
 import styles from './button.module.scss';
+
 export function Button({
   children,
   buttonType = 'primary',

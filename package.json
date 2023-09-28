@@ -6,9 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint . --cache --fix && stylelint \"**/*.{css,scss}\"",
     "test": "echo \"running tests\"",
-    "stylelint": "stylelint \"**/*.{css,scss}\"",
     "prepare": "husky install"
   },
   "lint-staged": {

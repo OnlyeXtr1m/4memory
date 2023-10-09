@@ -1,0 +1,19 @@
+@use '@/app/variables' as palette;
+
+.text-area {
+  display: block;
+  padding: 20px;
+  border: 2px solid palette.$typography-disabled-color;
+  border-radius: 5px;
+  color: palette.$typography-disabled-color;
+
+  &::placeholder {
+    color: palette.$typography-primary-color;
+  }
+
+  &:focus {
+    color: palette.$typography-primary-color;
+    border-color: palette.$bg-accent-color;
+    outline: none;
+  }
+}
